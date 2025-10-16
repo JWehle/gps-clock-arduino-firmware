@@ -2,7 +2,7 @@
 void setup() {
   Serial.begin(115200);
   Serial1.begin(9600);           // or 38400/115200 if you reconfigure MAX-M10S
-  GPS_PPS_begin(Serial1, 3);     // PPS on PD3 (Arduino D3)
+  //GPS_PPS_begin(Serial1, 3);     // PPS on PD3 (Arduino D3)
 }
 
 void loop() {
